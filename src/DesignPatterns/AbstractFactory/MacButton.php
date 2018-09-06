@@ -13,6 +13,6 @@ class MacButton implements Button
 {
     public function draw()
     {
-        echo "Отрисована кнопка в стиле Mac\n";
+        echo "Отрисована кнопка в стиле Mac";
     }
 }

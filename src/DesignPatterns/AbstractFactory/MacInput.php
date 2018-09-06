@@ -13,6 +13,6 @@ class MacInput implements Input
 {
     public function draw()
     {
-        echo "Отрисовано поле для ввода текста в стиле Mac\n";
+        echo "Отрисовано поле для ввода текста в стиле Mac";
     }
 }

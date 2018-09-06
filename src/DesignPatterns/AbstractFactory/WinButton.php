@@ -13,6 +13,6 @@ class WinButton implements Button
 {
     public function draw()
     {
-        echo "Отрисована кнопка в стиле Windows\n";
+        echo "Отрисована кнопка в стиле Windows";
     }
 }

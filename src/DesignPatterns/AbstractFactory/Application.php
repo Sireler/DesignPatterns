@@ -46,7 +46,7 @@ class Application
                 $this->factory = new WinFactory();
                 break;
             default:
-                throw new \Exception('Невозможно запустить приложение! Неизвестная операционная система');
+                throw new UnknownOSException('Невозможно запустить приложение! Неизвестная операционная система');
         }
     }
 
@@ -68,6 +68,8 @@ class Application
      */
     public function drawComponents()
     {
+        // TODO: проверка, созданы ли компоненты
+
         $this->button->draw();
         $this->input->draw();
     }

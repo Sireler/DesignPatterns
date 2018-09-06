@@ -13,6 +13,6 @@ class WinInput implements Input
 {
     public function draw()
     {
-        echo "Отрисовано поле для ввода текста в стиле Windows\n";
+        echo "Отрисовано поле для ввода текста в стиле Windows";
     }
 }
