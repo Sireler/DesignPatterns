@@ -25,7 +25,7 @@ class Job
         $this->developer = $this->factory->createDeveloper();
     }
 
-    public function createDeveloperFactory($developer): DeveloperFactory
+    protected function createDeveloperFactory($developer): DeveloperFactory
     {
         $developer = strtolower($developer);
 
@@ -35,6 +35,9 @@ class Job
                 break;
             case 'php':
                 return new PHPDeveloperFactory();
+                break;
+            default:
+                throw new \Exception("{$developer} not found");
                 break;
         }
     }
