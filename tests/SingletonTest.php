@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Sireler\DesignPatterns\Singleton;
+use Sireler\DesignPatterns\Singleton\Singleton;
 
 final class SingletonTest extends TestCase
 {

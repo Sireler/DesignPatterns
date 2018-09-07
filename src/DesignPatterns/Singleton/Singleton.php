@@ -1,6 +1,6 @@
 <?php
 
-namespace Sireler\DesignPatterns;
+namespace Sireler\DesignPatterns\Singleton;
 
 /**
  * Паттерн Singleton гарантирует, что у класса есть только один
